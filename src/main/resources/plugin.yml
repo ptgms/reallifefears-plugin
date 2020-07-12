@@ -1,0 +1,15 @@
+name: RealLifeFears
+version: ${project.version}
+main: ptgms.industries.fears.Fears
+api-version: 1.16
+authors: [ptgms]
+description: Get Fears of things and more!
+website: ptgms.xyz
+
+commands:
+  setfear:
+    description: Set what fears you have. Requires OP.
+  getfear:
+    description: Get someones fear. Requires OP.
+  localbeacon:
+    description: Activate your local beacon.
